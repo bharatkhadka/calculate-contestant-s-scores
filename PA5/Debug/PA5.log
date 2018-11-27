@@ -1,0 +1,13 @@
+﻿  PA5_Khadka_Tara.cpp
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(146): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(149): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(152): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(155): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(157): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(168): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(171): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(174): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(177): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+h:\c++\pa5\pa5\pa5_khadka_tara.cpp(179): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  PA5.vcxproj -> H:\C++\PA5\Debug\PA5.exe
+  PA5.vcxproj -> H:\C++\PA5\Debug\PA5.pdb (Partial PDB)
