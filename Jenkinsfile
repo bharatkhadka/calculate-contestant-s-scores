@@ -13,5 +13,10 @@ node("master"){
     stage("Build"){
         echo "Now im building the Repo"
         sh "$mvnHome/bin/mvn clean package"
+      
+    }
+    stage("Post Build Action"){
+        echo "Emailing the DevOps team"
+        
     }
 }
