@@ -1,22 +1,20 @@
-node("master"){
+node("agent"){
     def mvnHome = tool name: 'mvn360', type: 'maven'
-    stage("Pulling Repo"){
-        echo"I'm pulling repo from Github"
-        git credentialsId: 'githubaccount', url: 'https://github.com/tkkhadka/calculate-contestant-s-scores.git'
-
+    stage("Getting Repo"){
+        echo "I'm getting repo"
+        git credentialsId: 'githubaccount', url: 'https://github.com/bharatkhadka/calculate-contestant-s-scores.git'
+        
     }
+    
     stage("Clean Test"){
-        echo "Now I'm Performing the Clean Test"
+        echo "I'm doing clean test"
         sh "$mvnHome/bin/mvn clean test"
         
     }
+    
     stage("Build"){
-        echo "Now im building the Repo"
+        echo "Now i'm building"
         sh "$mvnHome/bin/mvn clean package"
-      
     }
-    stage("Post Build Action"){
-        echo "Emailing the DevOps team"
-        
-    }
+    
 }
